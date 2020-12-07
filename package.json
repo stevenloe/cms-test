@@ -4,7 +4,8 @@
   "description": "netlify cms test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve"
+
   },
   "author": "Steven Loe",
   "license": "ISC",
