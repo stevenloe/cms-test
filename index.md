@@ -1,3 +1,8 @@
+---
+layout: base.njk
+title: Home
+---
+
 # Cats
 ## a subheading
 
