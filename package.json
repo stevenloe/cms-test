@@ -4,8 +4,8 @@
   "description": "netlify cms test",
   "main": "index.js",
   "scripts": {
+    "build": "eleventy",
     "start": "eleventy --serve"
-
   },
   "author": "Steven Loe",
   "license": "ISC",
