@@ -12,7 +12,11 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "tags", name: "tags", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Heading", name: "heading", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+      - {label: "Hero Image", name: "heroimage", widget: "image"}
+      - {label: "Hero Image Height", name: "heroheight", widget: "number"}
+      - {label: "Feature Text", name: "featuretext", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}

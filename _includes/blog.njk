@@ -2,7 +2,12 @@
 layout: base.njk
 ---
 
-<h1>Blog Layout!!!</h1>
+<h1> heading is {{ heading }}</h1>
+<div style="border:solid 3px green"> This is thumbnail {{ thumbnail }}</div>
+
+<div style="border:solid 3px orange"> This is heroimg {{ heroimg }}</div>
+<div style="border:solid 3px blue"> This is heroheightg {{ heroheight }}</div>
+
 ^^ This layout inherits from the base layout. It's a layout who's layout is base.njk
 
 {{ content | safe }}
