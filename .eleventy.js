@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
   // Copy `img/` to `_site/images`
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("admin");
 
 
   eleventyConfig.addCollection("postsReversed", collection => {
