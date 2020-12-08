@@ -3,9 +3,9 @@ layout: base.njk
 ---
 
 <h1> heading is {{ heading }}</h1>
-<div style="border:solid 3px green"> This is thumbnail {{ thumbnail }}</div>
-
-<div style="border:solid 3px orange"> This is heroimg {{ heroimg }}</div>
+<div>rating is {{ rating }}</div>
+<div style="border:solid 3px green"> This is thumbnail <img src="{{thumbnail}}" alt="" srcset=""></div>
+<div style="border:solid 3px orange"> This is heroimg <img src="{{heroimg}}" alt="" srcset=""></div>
 <div style="border:solid 3px blue"> This is heroheightg {{ heroheight }}</div>
 
 ^^ This layout inherits from the base layout. It's a layout who's layout is base.njk
