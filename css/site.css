@@ -16,3 +16,14 @@ ul {
 .post-wrapper {
   border: solid 1px red;
 }
+
+nav {
+background-color: lightblue;
+padding: 0.5em;
+}
+
+footer {
+  display:block;
+  background-color: paleturquoise;
+  padding: 1em;
+}
